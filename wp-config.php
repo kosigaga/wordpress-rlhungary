@@ -1,6 +1,6 @@
 <?php
-define('WP_HOME', 'rlhungary.com');
-define('WP_SITEURL', 'rlhungary.com');
+define('WP_HOME', $_SERVER['WP_HOME_URL']);
+define('WP_SITEURL', $_SERVER['WP_SITE_URL']);
 define('DB_NAME', $_SERVER['RDS_DB_NAME']);
 define('DB_USER', $_SERVER['RDS_USERNAME']);
 define('DB_PASSWORD', $_SERVER['RDS_PASSWORD']);
